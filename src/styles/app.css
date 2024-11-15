@@ -1,0 +1,48 @@
+/* src/styles/App.css */
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  .text-section {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .text-section textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #1a1d23;
+    color: white;
+    border: 1px solid #404756;
+  }
+  
+  .links-section {
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .links-section input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background: #1a1d23;
+    color: white;
+    border: 1px solid #404756;
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border-color: #61dafb;
+  }

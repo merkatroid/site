@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   min-height: 100vh;
   background-color: #282c34;
@@ -52,4 +52,72 @@
 textarea:focus, input:focus {
   outline: none;
   border-color: #61dafb;
+} */
+
+
+
+/* src/App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text-section textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #1a1d23;
+  color: white;
+  border: 1px solid #404756;
+}
+
+.image-section {
+  margin: 2rem auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.meme-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.meme-image:hover {
+  transform: scale(1.02);
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #61dafb;
+}
+
+@media (max-width: 768px) {
+  .image-section {
+    max-width: 90%;
+  }
 }
